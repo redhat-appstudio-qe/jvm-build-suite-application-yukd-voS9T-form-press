@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-aijz
+  namespace: jvm-build-dhys-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:d500781ac6b79333251a87999c0d40d8be6f6a9cb711f506674d31c6293b7e9c
+        name: container-image
+        resources: {}
+status: {}
