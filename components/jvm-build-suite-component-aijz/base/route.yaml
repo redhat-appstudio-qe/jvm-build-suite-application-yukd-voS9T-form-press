@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-aijz
     app.kubernetes.io/part-of: jvm-build-suite-application-yukd
-  name: jvm-build-suite-componentwra4
+  name: jvm-build-suite-componentzt4m
   namespace: jvm-build-dhys-tenant
 spec:
   port:
